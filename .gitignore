@@ -1,0 +1,71 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# AWS keys or credentials
+.aws/
+*.pem
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+### Spring Boot ###
+*.war
+*.jar
+
+# Ignore application.properties
+src/main/resources/application.properties
+
+### Test Output ###
+/test-output/
+.surefire/
+.test-results/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.metadata/
+bin/
+tmp/
+*.bak
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# JetBrains IDEs (Common)
+*.idea/
+*.ipr
+*.iws
+*.iml
+out/
